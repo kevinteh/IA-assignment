@@ -1,0 +1,8 @@
+.example-page {
+  max-width: 800px;
+  margin: auto;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #eee;
+  padding: 10px 20px;
+}

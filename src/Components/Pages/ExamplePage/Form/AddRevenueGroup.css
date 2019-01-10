@@ -1,0 +1,119 @@
+h4 {
+  margin-top: 0;
+}
+
+select {
+  outline: none;
+  cursor: pointer;
+  min-width: 110px;
+  border-radius: 5px;
+  -webkit-appearance: none;
+  padding: 5px 15px 5px 8px;
+  background-color: #fff;
+  margin-right: 5px;
+  background-image: url('./images/caret.png');
+  background-size: 10px auto;
+  background-repeat: no-repeat;
+  background-position: right 6px top 13px;
+}
+
+.single-rule {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.single-rule .form-group {
+  margin-bottom: 0;
+  position: relative;
+}
+
+.single-rule:not(:first-child) {
+  border-top: 1px solid #abaeaf;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.right-col {
+  width: 80px;
+  padding-left: 5px;
+}
+
+.right-col .plus,
+.right-col .minus {
+  display: inline-block;
+  vertical-align: center;
+  border-radius: 100%;
+  background-color: transparent;
+  color: #9c9c9c;
+  border-color: #9c9c9c;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  outline: none;
+  margin: 0 4px;
+}
+
+.right-col .plus {
+  color: #000;
+  border-color: #000;
+}
+
+.rule-logic {
+  display: flex;
+  align-items: flex-start;
+}
+
+.params-group {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.params-group .form-group:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.params-group .full-width {
+  width: 100%;
+  padding-right: 80px;
+}
+
+.params-group .absolute-btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+}
+
+.text-red,
+.text-blue {
+  font-weight: 600;
+  font-size:12px;
+} 
+
+.text-red {
+  color: #ff5050;
+}
+
+.text-blue {
+  color: #58aeea;
+}
+
+.relative-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.relative-wrapper input {
+  padding-right: 25px;
+}

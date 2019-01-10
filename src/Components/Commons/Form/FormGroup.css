@@ -1,0 +1,33 @@
+.block-content label,
+.block-content input,
+.block-content select {
+  display: block;
+  width: 100%;  
+}
+
+.d-flex {
+  display: flex
+}
+
+.d-flex select {
+  margin: 0 10px;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.style-grey {
+  background-color: #eeeeee;
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.text + * {
+  margin-left: 10px;
+}
